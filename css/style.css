@@ -1,0 +1,154 @@
+.body{
+
+	height: auto;
+	overflow-x:hidden;
+	overflow-y: auto;
+	color: black;
+	font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:100%;
+	margin: 0;
+	padding: 0;
+	background: #00194c;
+	/*background-position: center bottom;*/
+	
+	
+}
+
+.main{
+	height:auto;
+	width:1000px;
+	background-color: #EEEEEE;
+	position: absolute;
+	left:50%;
+	top:20%;
+	margin-left:-515px;
+	margin-bottom: 15px;
+	padding:30px;
+}
+img{
+	position:absolute; 
+	left:-72px; 
+	top:-10px;
+}
+
+h1{
+	border-bottom: 4px dotted #474747;
+}
+
+.title{
+	text-align: center;
+	font-family: inherit;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+.subtitle{
+
+	font-family: inherit;
+	letter-spacing: 1px;
+
+}
+#sub1{
+
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+}
+#sub2{
+	
+	border-top: 1px solid #aaaaaa;
+	border-right:  1px solid #aaaaaa;
+
+}
+
+.title_wrap{
+	float: left;
+	color: #bbbbbb;
+	border-radius: 5px;
+	padding-right: 10px;
+	border-top: 1px solid #aaaaaa;
+	border-right:  1px solid #aaaaaa;
+	 border-bottom-right-radius: 0;
+}
+.title_wrap.active{
+	border-top: 1px solid #888888; 
+	border-right:  1px solid #888888;
+	color: black;
+}
+.form{
+	clear:left;
+}
+
+
+input {
+  padding: 10px;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+  background-color: #ffdddd;
+}
+select{
+ padding: 10px;
+  
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+.tab {
+
+  display: none;
+}
+/*.charges{
+	display: none;
+
+}*/
+button {
+  background-color: #474747;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  margin-top:15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.addBtn{
+	padding: 10px 16px;
+	font-size: 15px;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #00194c;
+  border: none; 
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step.finish {
+  background-color: #00194c;
+}
+
+.labels{
+	font-size: 18px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
